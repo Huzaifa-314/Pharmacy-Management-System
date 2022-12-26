@@ -2,6 +2,7 @@
   --bg-gradient: linear-gradient(to right, #4F968F, #3A8A87);
   --bg-gradient-body: linear-gradient(to right, #CBDCE1, #CDDDE2);
   --lpanel-width: 200px;
+  --dark-heading: #214749;
 }
 
 * {
@@ -87,6 +88,70 @@ body {
   margin: 20px 0 40px 0px;
 }
 
+.panel-area .navbar-brand{
+  color: var(--dark-heading);
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 30px;
+}
+
+.panel-area nav div form{
+  width: 200px;
+  margin-left: auto;
+  align-items: center;
+}
+
+.panel-area nav div form input{
+  background-color: var(--bg-gradient);
+
+border: none;;
+}
+.panel-area .search{
+  background-color: white;
+  border-radius: 30px;
+}
+
+.panel-area nav div form i{
+  background-color: var(--dark-heading);
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.panel-area nav .right{
+  display: flex;
+}
+
+.panel-area nav .right i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.panel-area nav .right img{
+  width: 40px;
+  border-radius: 50%;
+
+}
+
+.panel-area .right div i{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: -5px;
+  left: 15px;
+  font-size: 15px;
+}
 
 
 
