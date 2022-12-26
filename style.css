@@ -3,6 +3,7 @@
   --bg-gradient-body: linear-gradient(to right, #CBDCE1, #CDDDE2);
   --lpanel-width: 200px;
   --dark-heading: #214749;
+  --bg-card:#DBE4EC;
 }
 
 * {
@@ -85,14 +86,22 @@ body {
 }
 
 .title{
-  margin: 20px 0 40px 0px;
+  margin: 28px 0 40px 0px;
+
+}
+.title h4{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.panel-area .container-fluid{
+  margin: 10px 20px;
 }
 
 .panel-area .navbar-brand{
   color: var(--dark-heading);
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
-  margin: 0 30px;
 }
 
 .panel-area nav div form{
@@ -153,9 +162,19 @@ border: none;;
   font-size: 15px;
 }
 
+.main-area{
+  padding: 0 20px;
+}
 
+.add-product{
+  margin: 20px;
+  background-color: var(--bg-card);
+  border-radius: 10px;
+}
 
-
+.input-item{
+  display: inline-block;
+}
 
 
 
