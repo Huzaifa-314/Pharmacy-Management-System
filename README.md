@@ -3,7 +3,7 @@
 
 This project illustrates the designing and implementation of a web based Pharmacy management system for a local Pharmacy Store. The primary aim of is to improve accuracy and enhance safety and efficiency in the pharmaceutical store by minimizing issues occur in day to day operations.
 
-Currently they are using a manual system which is very hard in handling. Managing the stock with paper records based on the expiry dates and the quantity available in the stock are some major problems identified. The system intends to minimize the work loadof the staff and increase the value of the business to gain the competitive advantages in the pharmaceutical industry
+Currently they are using a manual system which is very hard in handling. Managing the stock with paper records based on the expiry dates and the quantity available in the stock are some major problems identified. The system intends to minimize the work loadof the staff and increase the value of the business to gain the competitive advantages in the pharmaceutical industry.
 
 ## Important Links
 
