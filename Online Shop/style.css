@@ -28,7 +28,9 @@ ul li{
     margin: auto;
 }
 
-
+a:hover{
+    text-decoration: none;
+}
 
 /* header section */
 
@@ -230,6 +232,9 @@ ul li{
 
 .catagory-title{
     color: var(--p-color);
+    padding: 30px 0px !important;
+    font-size: 3rem !important;
+    font-weight: 700 !important;
     
 }
 .single-product{
@@ -248,27 +253,37 @@ ul li{
     justify-content: center;
     background-color: #f6fef9;
 }
-.product-name{
+.com-name{
     font-weight: bold;
     color: var(--p-color);
+    font-size: 1.3em;
+}
+.product-heading{
+    display: flex;
 }
 .generic-name{
     color: gray;
+    font-size: 1.2em;
+}
+.product-name{
+    flex-basis: 85%;
 }
 .product-price{
     font-weight: bold;
     color: var(--p-color);
-    font-size: 22px;
+    font-size: 1.5em;
+    flex-basis: 15%;
 }
 .add-to-cart button{
     border-radius: 5px;
     background-color: white;
     width: 100%;
-    padding: 5px 10px;
+    padding: 12px 16px;
     cursor: pointer;
     color: var(--p-color);
     border: 2px solid var(--p-color);
     transition: 0.3s;
+    font-size: 1.4em;
 }
 .add-to-cart button:hover{
     background-color: var(--p-color);
