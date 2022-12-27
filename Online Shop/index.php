@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pharmacy Shop</title>
-    <!-- style sheel -->
+    <!-- style sheet -->
     <link rel="stylesheet" href="style.css">
 
     <!-- font awesome 4 link -->
@@ -23,7 +23,7 @@
 
 
     <div class="category container-fluid">
-      <div class="container"><h1 class="catagory-title" style="margin-top:30px;">Shop by Category</h1>
+      <div class="container"><h1 class="catagory-title" style="margin-top:30px;">Shop By Category</h1>
     </div>
         
     </div>
