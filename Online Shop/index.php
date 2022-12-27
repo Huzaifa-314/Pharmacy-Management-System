@@ -54,7 +54,9 @@
     </div>
     <!-- category 1 -->
     <div class="container-fluid mt-5">
-    <h1 class="catagory-title">Prescribed Medicine</h1>
+    <div class="container"><h1 class="catagory-title">Prescribed Medicine</h1>
+    </div>
+    
   </div>
     <div class="product">
         <div class="container">
@@ -127,7 +129,9 @@
     </div>
     <!-- category 2 -->
     <div class="container-fluid">
-    <h1 class="catagory-title">Medical Devices</h1>
+    <div class="container"><h1 class="catagory-title">Medical Devices</h1>
+    </div>
+    
   </div>
     <div class="product">
         <div class="container">
@@ -188,7 +192,9 @@
     </div>
     <!-- category 3  -->
     <div class="container-fluid">
-    <h1 class="catagory-title">Baby & mom</h1>
+    <div class="container"><h1 class="catagory-title">Baby & mom</h1>
+    </div>
+    
   </div>
     <div class="product">
         <div class="container">
@@ -273,7 +279,9 @@
     </div>
     <!-- category 4 -->
     <div class="container-fluid">
-    <h1 class="catagory-title">Skin Care</h1>
+    <div class="container"><h1 class="catagory-title">Skin Care</h1>
+    </div>
+    
   </div>
     <div class="product">
         <div class="container">

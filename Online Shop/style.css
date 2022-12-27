@@ -28,10 +28,6 @@ ul li{
     margin: auto;
 }
 
-h1{
-    font-size: 3rem;
-    font-weight: 700;
-}
 
 
 /* header section */
@@ -235,6 +231,8 @@ h1{
 .catagory-title{
     color: var(--p-color);
     padding: 30px 0px;
+    font-size: 3rem;
+    font-weight: 700;
 }
 .single-product{
     padding: 10px;
