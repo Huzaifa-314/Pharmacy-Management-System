@@ -23,7 +23,9 @@
 
 
     <div class="category container-fluid">
-        <h1 class="catagory-title" style="margin-top:30px;">Shop by Category</h1>
+      <div class="container"><h1 class="catagory-title" style="margin-top:30px;">Shop by Category</h1>
+    </div>
+        
     </div>
     <div class="product">
         <div class="container">
