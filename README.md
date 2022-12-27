@@ -15,7 +15,7 @@ This github repository only contains frontend design of the admin dashboard
 
 ## Fun Fact
 
-Frontend design of this project prodeced by [Midjourney](https://midjourney.com/home/?callbackUrl=%2Fapp%2F#about) an artificial intelligence. ([Image Link](https://cdn.midjourney.com/817c30ac-71cf-460e-9b7e-ec22ce29015b/grid_0.png))
+Frontend design of this project produced by [Midjourney](https://midjourney.com/home/?callbackUrl=%2Fapp%2F#about) an artificial intelligence. ([Image Link](https://cdn.midjourney.com/817c30ac-71cf-460e-9b7e-ec22ce29015b/grid_0.png))
 ## Acknowledgements
 Thanks to our mentor [Omar Faruque](https://github.com/omarfaruque96).
 ## Authors
