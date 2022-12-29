@@ -424,7 +424,6 @@ input.inc-dec-button{
 
 .Sign-in-up{
     width: 100%;
-    height: 100vh;
     background-color: #F5F5F5;
     padding: 7rem;
 }
@@ -498,7 +497,6 @@ input.inc-dec-button{
 .signuptab{
     padding: 1em;
     background-color: white;
-    display: none;
 
 }
 

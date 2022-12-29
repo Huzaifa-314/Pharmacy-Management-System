@@ -23,6 +23,8 @@ function openTab(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 
+
+
 // sign in & up tab
 logintab = document.getElementsByClassName("logintab");
 signuptab = document.getElementsByClassName("signuptab");
