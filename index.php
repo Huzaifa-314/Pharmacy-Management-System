@@ -368,24 +368,130 @@
                         <div class="box">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="report-status">
+                                    <div class="report-status p-3" style="background-image: var(--report-success);">
                                         <div>Frequently Selling</div>
-                                        <h4>5 Products</h4>
+                                        <strong>4 Product</strong>
                                     </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <div class="report-status-body pe-4 pt-2">
-                                        <div><strong>Napa</strong><div>5tk</div></div>
-                                        <div><strong>Napa</strong><div>5tk</div></div>
-                                        <div><strong>Napa</strong><div>5tk</div></div>
-                                        <div><strong>Napa</strong><div>5tk</div></div>
+                                    <div class="report-status-body p-2">
+                                        <div class="px-2"><strong>Napa</strong>
+                                            <div>paracitamol</div>
+                                            <div>5tk</div>
+                                        </div>
+                                        <div class="px-2"><strong>Napa</strong>
+                                            <div>paracitamol</div>
+                                            <div>5tk</div>
+                                        </div>
+                                        <div class="px-2"><strong>Napa</strong>
+                                            <div>paracitamol</div>
+                                            <div>5tk</div>
+                                        </div>
+                                        <div class="px-2"><strong>Napa</strong>
+                                            <div>paracitamol</div>
+                                            <div>5tk</div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-5">
-                        <div class="box">hello</div>
+                        <div class="box">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="report-status p-3" style="background-color: var(--report-danger) !important;">
+                                        <div>Expiring</div>
+                                        <Strong>2 Product</Strong>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="report-status-body p-2">
+                                        <div class="px-2"><strong>Napa</strong>
+                                            <div>paracitamol</div>
+                                            <div>5tk</div>
+                                        </div>
+                                        <div class="px-2"><strong>Napa</strong>
+                                            <div>paracitamol</div>
+                                            <div>5tk</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="box">
+                            <div id="piechart" style="height: 300px;"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="box">
+                            <div id="myChart" style="width:100%; height:300px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="product-table p-1 box">
+
+                        <h5 class="box-title">Products in Stock</h5>
+                        <div class="dropdown-divider"></div>
+                        <div class="tbl-scroll">
+                            <table class="table box-content">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">SL</th>
+                                        <th scope="col">Brand</th>
+                                        <th scope="col">Generic</th>
+                                        <th scope="col">Manufacturer</th>
+                                        <th scope="col">Strength</th>
+                                        <th scope="col">Type</th>
+                                        <th scope="col">Retail Price</th>
+                                        <th scope="col">In stock</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td class="brand">Nimocon 500</td>
+                                        <td class="generic">Azithromycin</td>
+                                        <td class="manufacturer">ACI HealthCare Limited</td>
+                                        <td class="strength">500 mg</td>
+                                        <td class="type">Tablet</td>
+                                        <td class="retail-price"></td>
+                                        <td class="in-stock">500</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td class="brand">Adbon</td>
+                                        <td class="generic">Calcium + Vitamin D3</td>
+                                        <td class="manufacturer">ACI HealthCare Limited</td>
+                                        <td class="strength">500 mg + 200 IU</td>
+                                        <td class="type">Tablet</td>
+                                        <td class="retail-price"></td>
+                                        <td class="in-stock">220</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td class="brand">Opental 50</td>
+                                        <td class="generic">Tramadol Hydrochloride </td>
+                                        <td class="manufacturer">ACI HealthCare Limited</td>
+                                        <td class="strength">50 mg</td>
+                                        <td class="type">Tablet</td>
+                                        <td class="retail-price"></td>
+                                        <td class="in-stock">320</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -477,21 +583,22 @@
                 </div>
             </div>
         </div>
-    </div>
 
 
 
 
+        <!-- chart js -->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/3471a30cd8.js" crossorigin="anonymous"></script>
-    <!-- bootstrap jquery and js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/3471a30cd8.js" crossorigin="anonymous"></script>
+        <!-- bootstrap jquery and js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <!-- custom jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- custom js-->
-    <script src="main.js"></script>
+        <!-- custom jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- custom js-->
+        <script src="main.js"></script>
 </body>
 
 </html>

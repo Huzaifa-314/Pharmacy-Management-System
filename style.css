@@ -24,7 +24,7 @@ body {
   min-width: var(--lpanel-width);
   height: 100%
 }
-  
+
 a{
   text-decoration: none;
   color: white;
@@ -171,13 +171,14 @@ border: none;;
 
 .main-area{
   padding: 0 20px;
+  margin: 30px;
 }
 
 .box{
-  margin: 30px;
   background-color: var(--bg-card);
   border-radius: 10px;  
   overflow: hidden;
+  margin: 20px 0 20px 0;
 }
 
 .box-title{
@@ -257,15 +258,15 @@ border: none;;
 }
 
 .report-status{
-  background-image: var(--report-success);
-  padding: 10px;
-  
+  color: white;
+  height: 100%;
 }
 
 .report-status-body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow-x: scroll;
 }
 
 @media only screen and (max-width: 576px) {}
