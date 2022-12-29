@@ -24,7 +24,7 @@ body {
   min-width: var(--lpanel-width);
   height: 100%
 }
-
+  
 a{
   text-decoration: none;
   color: white;
@@ -265,6 +265,7 @@ border: none;;
 .report-status-body{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 @media only screen and (max-width: 576px) {}

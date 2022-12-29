@@ -364,7 +364,29 @@
             </div>
             <div id="reports" class="tab-content">
                 <div class="row">
-                    
+                    <div class="col-md-7">
+                        <div class="box">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="report-status">
+                                        <div>Frequently Selling</div>
+                                        <h4>5 Products</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="report-status-body pe-4 pt-2">
+                                        <div><strong>Napa</strong><div>5tk</div></div>
+                                        <div><strong>Napa</strong><div>5tk</div></div>
+                                        <div><strong>Napa</strong><div>5tk</div></div>
+                                        <div><strong>Napa</strong><div>5tk</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="box">hello</div>
+                    </div>
                 </div>
             </div>
             <div id="user-management" class="tab-content">
