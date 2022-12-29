@@ -4,6 +4,8 @@
   --lpanel-width: 200px;
   --dark-heading: #214749;
   --bg-card:#DBE4EC;
+  --report-danger:#C9505A;
+  --report-success: linear-gradient(to right, #48BEB2, #3CB7A1)
 }
 
 * {
@@ -175,6 +177,7 @@ border: none;;
   margin: 30px;
   background-color: var(--bg-card);
   border-radius: 10px;  
+  overflow: hidden;
 }
 
 .box-title{
@@ -253,6 +256,15 @@ border: none;;
   height: 500px;
 }
 
-/* helloooo */
+.report-status{
+  background-image: var(--report-success);
+  padding: 10px;
+  
+}
+
+.report-status-body{
+  display: flex;
+  justify-content: space-between;
+}
 
 @media only screen and (max-width: 576px) {}

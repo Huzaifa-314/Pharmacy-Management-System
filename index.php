@@ -363,7 +363,9 @@
                 </div>
             </div>
             <div id="reports" class="tab-content">
-                Reports Content
+                <div class="row">
+                    
+                </div>
             </div>
             <div id="user-management" class="tab-content">
                 <div class="p-1 box">

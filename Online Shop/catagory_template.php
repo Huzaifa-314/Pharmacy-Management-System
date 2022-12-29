@@ -284,6 +284,9 @@
   <!-- catagory page end -->
   <!-- --------------------- -->
 
+  <!-- jquerry -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
