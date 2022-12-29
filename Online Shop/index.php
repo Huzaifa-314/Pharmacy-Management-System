@@ -282,7 +282,7 @@
     <!-- category 3  -->
      <section class="c-3">
      <div class="container-fluid">
-    <div class="container"><h1 class="catagory-title">Baby & mom</h1>
+    <div class="container"><h1 class="catagory-title-b">Baby & mom</h1>
     </div>
     
   </div>

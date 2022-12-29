@@ -36,7 +36,7 @@
                     <div class="dropdown-divider"></div>
                     <div class="user-item">
                         <ul class="tab">
-                            <li><button class="tablinks3 tablinks" onclick="openTab(event,'Tab3')"><i class="fa fa-angle-double-right"> Edit Profile</i></button></li>
+                            <li><button class="tablinks3 tablinks" onclick="openTab(event,'Tab3')"><i class="fa fa-angle-double-right"> Profile</i></button></li>
                             <li><button class="tablinks1 tablinks" onclick="openTab(event,'Tab1')" id="defaultOpen"><i class="fa fa-angle-double-right"> Order History</i></button></li>
                             <li><button class="tablinks2 tablinks" onclick="openTab(event,'Tab2')"><i class="fa fa-angle-double-right"> Prescription History</i></button></li>
                             <li><button class="tablinks4 tablinks" onclick="openTab(event,'Tab4')"><i class="fa fa-angle-double-right"> Logout</i></button></li>

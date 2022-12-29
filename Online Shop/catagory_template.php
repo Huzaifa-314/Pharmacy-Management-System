@@ -38,7 +38,10 @@
 
   <!-- catagory name -->
   <div class="container-fluid">
-    <h1 class="catagory-title">OTC</h1>
+    <div class="container">
+       <h1 class="catagory-title">OTC</h1>
+    </div>
+   
   </div>
 
   <!-- single product row -->
@@ -46,106 +49,214 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="single-product">
-            <a href="product.php">
-              <div class="product-image"><img src="img/napa.jpg" alt=""></div>
-              <div class="product-name">Napa 300mg tablet</div>
-              <div class="genric-name">paracitamol</div>
-            </a>
-            <br>
-            <div class="product-price">5$</div>
-            <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
-          </div>
+        <div class="single-product">
+              <a href="product.php">
+                <div class="product-image"><img src="img/napa.jpg" alt=""></div>
+              </a>
+                <div class="product-heading">
+                  <div class="product-name">
+                    <a href="product.php">
+                      <p class="com-name">Napa 300mg tablet</p>
+                      <p class="generic-name">paracitamol</p>
+                    </a>
+                  </div>
+                  <div class="product-price">5$</div>
+                </div>
+              
+              <br>
+              <br>
+              
+              <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
+            </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="single-product">
-            <a href="product.php">
-              <div class="product-image"><img src="img/napa.jpg" alt=""></div>
-              <div class="product-name">Napa 300mg tablet</div>
-              <div class="genric-name">paracitamol</div>
-            </a>
-            <br>
-            <div class="product-price">5$</div>
-            <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
-          </div>
+        <div class="single-product">
+              <a href="product.php">
+                <div class="product-image"><img src="img/napa.jpg" alt=""></div>
+              </a>
+                <div class="product-heading">
+                  <div class="product-name">
+                    <a href="product.php">
+                      <p class="com-name">Napa 300mg tablet</p>
+                      <p class="generic-name">paracitamol</p>
+                    </a>
+                  </div>
+                  <div class="product-price">5$</div>
+                </div>
+              
+              <br>
+              <br>
+              
+              <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
+            </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="single-product">
-            <a href="product.php">
-              <div class="product-image"><img src="img/napa.jpg" alt=""></div>
-              <div class="product-name">Napa 300mg tablet</div>
-              <div class="genric-name">paracitamol</div>
-            </a>
-            <br>
-            <div class="product-price">5$</div>
-            <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
-          </div>
+        <div class="single-product">
+              <a href="product.php">
+                <div class="product-image"><img src="img/napa.jpg" alt=""></div>
+              </a>
+                <div class="product-heading">
+                  <div class="product-name">
+                    <a href="product.php">
+                      <p class="com-name">Napa 300mg tablet</p>
+                      <p class="generic-name">paracitamol</p>
+                    </a>
+                  </div>
+                  <div class="product-price">5$</div>
+                </div>
+              
+              <br>
+              <br>
+              
+              <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
+            </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="single-product">
-            <a href="product.php">
-              <div class="product-image"><img src="img/napa.jpg" alt=""></div>
-              <div class="product-name">Napa 300mg tablet</div>
-              <div class="genric-name">paracitamol</div>
-            </a>
-            <br>
-            <div class="product-price">5$</div>
-            <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
-          </div>
+        <div class="single-product">
+              <a href="product.php">
+                <div class="product-image"><img src="img/napa.jpg" alt=""></div>
+              </a>
+                <div class="product-heading">
+                  <div class="product-name">
+                    <a href="product.php">
+                      <p class="com-name">Napa 300mg tablet</p>
+                      <p class="generic-name">paracitamol</p>
+                    </a>
+                  </div>
+                  <div class="product-price">5$</div>
+                </div>
+              
+              <br>
+              <br>
+              
+              <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
+            </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="single-product">
-            <div class="product-image"><img src="img/napa.jpg" alt=""></div>
-            <div class="product-name">Napa 300mg tablet</div>
-            <div class="genric-name">paracitamol</div><br>
-            <div class="product-price">5$</div>
-            <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
-          </div>
+        <div class="single-product">
+              <a href="product.php">
+                <div class="product-image"><img src="img/napa.jpg" alt=""></div>
+              </a>
+                <div class="product-heading">
+                  <div class="product-name">
+                    <a href="product.php">
+                      <p class="com-name">Napa 300mg tablet</p>
+                      <p class="generic-name">paracitamol</p>
+                    </a>
+                  </div>
+                  <div class="product-price">5$</div>
+                </div>
+              
+              <br>
+              <br>
+              
+              <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
+            </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="single-product">
-            <div class="product-image"><img src="img/napa.jpg" alt=""></div>
-            <div class="product-name">Napa 300mg tablet</div>
-            <div class="genric-name">paracitamol</div><br>
-            <div class="product-price">5$</div>
-            <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
-          </div>
+        <div class="single-product">
+              <a href="product.php">
+                <div class="product-image"><img src="img/napa.jpg" alt=""></div>
+              </a>
+                <div class="product-heading">
+                  <div class="product-name">
+                    <a href="product.php">
+                      <p class="com-name">Napa 300mg tablet</p>
+                      <p class="generic-name">paracitamol</p>
+                    </a>
+                  </div>
+                  <div class="product-price">5$</div>
+                </div>
+              
+              <br>
+              <br>
+              
+              <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
+            </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="single-product">
-            <div class="product-image"><img src="img/napa.jpg" alt=""></div>
-            <div class="product-name">Napa 300mg tablet</div>
-            <div class="genric-name">paracitamol</div><br>
-            <div class="product-price">5$</div>
-            <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
-          </div>
+        <div class="single-product">
+              <a href="product.php">
+                <div class="product-image"><img src="img/napa.jpg" alt=""></div>
+              </a>
+                <div class="product-heading">
+                  <div class="product-name">
+                    <a href="product.php">
+                      <p class="com-name">Napa 300mg tablet</p>
+                      <p class="generic-name">paracitamol</p>
+                    </a>
+                  </div>
+                  <div class="product-price">5$</div>
+                </div>
+              
+              <br>
+              <br>
+              
+              <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
+            </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="single-product">
-            <div class="product-image"><img src="img/napa.jpg" alt=""></div>
-            <div class="product-name">Napa 300mg tablet</div>
-            <div class="genric-name">paracitamol</div><br>
-            <div class="product-price">5$</div>
-            <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
-          </div>
+        <div class="single-product">
+              <a href="product.php">
+                <div class="product-image"><img src="img/napa.jpg" alt=""></div>
+              </a>
+                <div class="product-heading">
+                  <div class="product-name">
+                    <a href="product.php">
+                      <p class="com-name">Napa 300mg tablet</p>
+                      <p class="generic-name">paracitamol</p>
+                    </a>
+                  </div>
+                  <div class="product-price">5$</div>
+                </div>
+              
+              <br>
+              <br>
+              
+              <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
+            </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="single-product">
-            <div class="product-image"><img src="img/napa.jpg" alt=""></div>
-            <div class="product-name">Napa 300mg tablet</div>
-            <div class="genric-name">paracitamol</div><br>
-            <div class="product-price">5$</div>
-            <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
-          </div>
+        <div class="single-product">
+              <a href="product.php">
+                <div class="product-image"><img src="img/napa.jpg" alt=""></div>
+              </a>
+                <div class="product-heading">
+                  <div class="product-name">
+                    <a href="product.php">
+                      <p class="com-name">Napa 300mg tablet</p>
+                      <p class="generic-name">paracitamol</p>
+                    </a>
+                  </div>
+                  <div class="product-price">5$</div>
+                </div>
+              
+              <br>
+              <br>
+              
+              <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
+            </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="single-product">
-            <div class="product-image"><img src="img/napa.jpg" alt=""></div>
-            <div class="product-name">Napa 300mg tablet</div>
-            <div class="genric-name">paracitamol</div><br>
-            <div class="product-price">5$</div>
-            <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
-          </div>
+        <div class="single-product">
+              <a href="product.php">
+                <div class="product-image"><img src="img/napa.jpg" alt=""></div>
+              </a>
+                <div class="product-heading">
+                  <div class="product-name">
+                    <a href="product.php">
+                      <p class="com-name">Napa 300mg tablet</p>
+                      <p class="generic-name">paracitamol</p>
+                    </a>
+                  </div>
+                  <div class="product-price">5$</div>
+                </div>
+              
+              <br>
+              <br>
+              
+              <div class="add-to-cart"><button><i class="fa fa-shopping-cart"> Add to Cart</i></button></div>
+            </div>
         </div>
       </div>
     </div>
