@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pharmacy Management System Admin Dashboard</title>
     <!-- Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
@@ -19,9 +18,9 @@
     <?php include 'include/left-panel.php'; ?>
 
     <div class="panel-area">
-        
-    <!-- top navbar -->
-    <?php include 'include/top-nav.php'; ?>
+
+        <!-- top navbar -->
+        <?php include 'include/top-nav.php'; ?>
 
 
         <div class="main-area">
@@ -201,7 +200,7 @@
                                     <td class="retail-price">5</td>
                                     <td class="discount">0</td>
                                     <td class="total">50</td>
-                                    <td class="status">Successfull</td>
+                                    <td class="status">Paid</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
@@ -211,7 +210,7 @@
                                     <td class="retail-price">5</td>
                                     <td class="discount">0</td>
                                     <td class="total">50</td>
-                                    <td class="status">Successfull</td>
+                                    <td class="status">Baki rakhse</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">3</th>
@@ -221,7 +220,7 @@
                                     <td class="retail-price">5</td>
                                     <td class="discount">0</td>
                                     <td class="total">50</td>
-                                    <td class="status">Successfull</td>
+                                    <td class="status">Paid</td>
                                 </tr>
 
 
@@ -231,13 +230,227 @@
                 </div>
             </div>
             <div id="stock" class="tab-content">
-                Stock Content
+                <div class="p-1 box">
+                    <h5 class="box-title">Purchase Product</h5>
+                    <div class="dropdown-divider"></div>
+                    <div class="row">
+                        <div class="left">
+                            <div class="input-field box-content">
+                                <div class="input-item">
+                                    <div>Brand Name:</div>
+                                    <input type="add-product">
+                                </div>
+                                <div class="input-item">
+                                    <div>Generic Name:</div>
+                                    <input type="add-product">
+                                </div>
+                                <!-- <div class="input-item">
+                                        <div>Type:</div>
+                                        <input type="add-product">
+                                    </div>
+                                    <div class="input-item">
+                                        <div>Manufacturer:</div>
+                                        <input type="add-product">
+                                    </div>
+                                    <div class="input-item">
+                                        <div>Short description:</div>
+                                        <input type="add-product">
+                                    </div>
+                                    <div class="input-item">
+                                        <div>Big description:</div>
+                                        <input type="add-product">
+                                    </div> -->
+                                <div class="input-item">
+                                    <div>Quantity(pice):</div>
+                                    <input type="">
+                                </div>
+                                <div class="input-item">
+                                    <div>Production Date:</div>
+                                    <input type="">
+                                </div>
+                                <div class="input-item">
+                                    <div>Expiry Date:</div>
+                                    <input type="">
+                                </div>
+                                <div class="input-item">
+                                    <div>Unit Price:</div>
+                                    <input type="">
+                                </div>
+                                <div class="input-item">
+                                    <div>Discount(%):</div>
+                                    <input type="">
+                                </div>
+                                <div class="input-item">
+                                    <div>Total Price:</div>
+                                    <input type="">
+                                </div>
+                                <div class="input-item">
+                                    <div>Purchase Date:</div>
+                                    <input type="">
+                                </div>
+                                <button class="">Purchase</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-table p-1 box">
+
+                    <h5 class="box-title">Purchase History</h5>
+                    <div class="dropdown-divider"></div>
+                    <div class="tbl-scroll">
+                        <table class="table box-content">
+                            <thead>
+                                <tr>
+                                    <th scope="col">SL</th>
+                                    <th scope="col">Brand</th>
+                                    <th scope="col">Generic</th>
+                                    <th scope="col">Quantity(pice)</th>
+                                    <th scope="col">Production Date</th>
+                                    <th scope="col">Expiry Date</th>
+                                    <th scope="col">Unit Price</th>
+                                    <th scope="col">Discount(%)</th>
+                                    <th scope="col">Total Price</th>
+                                    <th scope="col">Purchase Date</th>
+                                    <th scope="col">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td class="brand">Nimocon 500</td>
+                                    <td class="generic">Azithromycin</td>
+                                    <td class="quantity">1000</td>
+                                    <td class="production-date">01/01/2021</td>
+                                    <td class="expiry-date">01/01/2024</td>
+                                    <td class="unit-price">5</td>
+                                    <td class="discount">0</td>
+                                    <td class="total">5000</td>
+                                    <td class="purchase-date">29/12/2022</td>
+                                    <td class="status">Paid</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td class="brand">Nimocon 500</td>
+                                    <td class="generic">Azithromycin</td>
+                                    <td class="quantity">1000</td>
+                                    <td class="production-date">01/01/2021</td>
+                                    <td class="expiry-date">01/01/2024</td>
+                                    <td class="unit-price">5</td>
+                                    <td class="discount">0</td>
+                                    <td class="total">5000</td>
+                                    <td class="purchase-date">29/12/2022</td>
+                                    <td class="status">Paid</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td class="brand">Nimocon 500</td>
+                                    <td class="generic">Azithromycin</td>
+                                    <td class="quantity">1000</td>
+                                    <td class="production-date">01/01/2021</td>
+                                    <td class="expiry-date">01/01/2024</td>
+                                    <td class="unit-price">5</td>
+                                    <td class="discount">0</td>
+                                    <td class="total">5000</td>
+                                    <td class="purchase-date">29/12/2022</td>
+                                    <td class="status">Paid</td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
             <div id="reports" class="tab-content">
                 Reports Content
             </div>
             <div id="user-management" class="tab-content">
-                User Management Content
+                <div class="p-1 box">
+                    <h5 class="box-title">Add users</h5>
+                    <div class="dropdown-divider"></div>
+                    <div class="row">
+                        <div class="left">
+                            <div class="input-field box-content">
+                                <div class="input-item">
+                                    <div>Username:</div>
+                                    <input type="add-product">
+                                </div>
+                                <div class="input-item">
+                                    <div>Email:</div>
+                                    <input type="add-product">
+                                </div>
+                                <!-- <div class="input-item">
+                                        <div>Type:</div>
+                                        <input type="add-product">
+                                    </div>
+                                    <div class="input-item">
+                                        <div>Manufacturer:</div>
+                                        <input type="add-product">
+                                    </div>
+                                    <div class="input-item">
+                                        <div>Short description:</div>
+                                        <input type="add-product">
+                                    </div>
+                                    <div class="input-item">
+                                        <div>Big description:</div>
+                                        <input type="add-product">
+                                    </div> -->
+                                <div class="input-item">
+                                    <div>Password:</div>
+                                    <input type="">
+                                </div>
+                                <div class="input-item">
+                                    <div>Phone:</div>
+                                    <input type="">
+                                </div>
+                                <div class="input-item">
+                                    <div>Address:</div>
+                                    <input type="">
+                                </div>
+                                <div class="input-item">
+                                    <div>User Role:</div>
+                                    <input type="">
+                                </div>
+                                <button class="">Add</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-table p-1 box">
+
+                    <h5 class="box-title">All Users</h5>
+                    <div class="dropdown-divider"></div>
+                    <div class="tbl-scroll">
+                        <table class="table box-content">
+                            <thead>
+                                <tr>
+                                    <th scope="col">SL</th>
+                                    <th scope="col">Username</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col">Address</th>
+                                    <th scope="col">User Role</th>
+                                    <th scope="col">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td class="username">Huzaifa</td>
+                                    <td class="Email">contact.mdhuzaifa@gmail.com</td>
+                                    <td class="Phone">01813016898</td>
+                                    <td class="Address">Mirpur-12,Dhaka-1216</td>
+                                    <td class="User Role">Admin</td>
+                                    <td class="Status">Active</td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -249,9 +462,7 @@
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/3471a30cd8.js" crossorigin="anonymous"></script>
     <!-- bootstrap jquery and js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- custom jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

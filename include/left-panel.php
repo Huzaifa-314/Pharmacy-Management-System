@@ -12,7 +12,7 @@
             </li>
             <li id="sale-product-tab" class="tab-link" data-tab="sale-product"><i style="font-size: 20px;"
                     class="fas fa-balance-scale-right"></i><span>Sale Product</span></li>
-            <li id="stock-tab" class="tab-link" data-tab="stock"><i class="fas fa-cubes"></i><span>Stock</span></li>
+            <li id="stock-tab" class="tab-link" data-tab="stock"><i class="fas fa-cubes"></i><span>Purchase</span></li>
             <li id="reports-tab" class="tab-link" data-tab="reports"><i
                     class="fas fa-chart-line"></i><span>Report</span></li>
             <li id="users-tab" class="tab-link" data-tab="user-management"><i style="font-size: 21px;"

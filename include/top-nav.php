@@ -12,6 +12,7 @@
             <i class="fas fa-search"></i>
         </form>
         <div class="right">
+            <a href="Online Shop"><button class="dark-button">Online Shop</button></a>
             <i class="far fa-bell"></i>
             <div style="position: relative;">
                 <img src="img/Huzaifa.jpg" alt="user-image">

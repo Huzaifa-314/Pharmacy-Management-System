@@ -23,6 +23,11 @@ body {
   height: 100%
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 #left-panel {
   position: fixed;
   display: flex;
@@ -191,6 +196,18 @@ border: none;;
   right: 0;
   bottom: 0;
   vertical-align: baseline;
+  margin-left: 20px;
+  padding: 10px 30px;
+  border: none;
+  background-color: var(--dark-heading);
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.dark-button{
+
+  text-decoration: none;
   margin-left: 20px;
   padding: 10px 30px;
   border: none;
