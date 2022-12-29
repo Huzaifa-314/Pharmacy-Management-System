@@ -29,16 +29,16 @@
                 <div class="user-sidebar col-md-2 pt-3">
                     <div class="user-info mb-3  ">
                         <div class="user-image d-flex align-items-center  ml-3  ">
-                            <i class="fa fa-user fa-5x"></i>
+                            <img src="" alt="" height="180px" width="180px" class="User-pic">
                         </div>
                         <div class="user-name">User Name</div>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="user-item">
                         <ul class="tab">
+                            <li><button class="tablinks3 tablinks" onclick="openTab(event,'Tab3')"><i class="fa fa-angle-double-right"> Edit Profile</i></button></li>
                             <li><button class="tablinks1 tablinks" onclick="openTab(event,'Tab1')" id="defaultOpen"><i class="fa fa-angle-double-right"> Order History</i></button></li>
                             <li><button class="tablinks2 tablinks" onclick="openTab(event,'Tab2')"><i class="fa fa-angle-double-right"> Prescription History</i></button></li>
-                            <li><button class="tablinks3 tablinks" onclick="openTab(event,'Tab3')"><i class="fa fa-angle-double-right"> Edit Profile</i></button></li>
                             <li><button class="tablinks4 tablinks" onclick="openTab(event,'Tab4')"><i class="fa fa-angle-double-right"> Logout</i></button></li>
                         </ul>
                     </div>

@@ -3,14 +3,10 @@
     padding: 0;
     font-family: "Open Sans", sans-serif ;
 }
-i{
-    text-decoration: none;
-    font-family: "Open Sans", sans-serif ;
-}
+
 
 a{
     text-decoration: none;
-    font-family: "Open Sans", sans-serif ;
 }
 
 ul li{
@@ -28,10 +24,10 @@ ul li{
     margin: auto;
 }
 
-a:hover{
-    text-decoration: none;
-}
 
+h4{
+    color: #666 !important;
+}
 /* header section */
 
 /* top header start */
@@ -232,7 +228,7 @@ a:hover{
 
 .catagory-title{
     color: var(--p-color);
-    padding: 30px 0px !important;
+    padding: 30px 0px 10px 0px !important;
     font-size: 3rem !important;
     font-weight: 700 !important;
     
@@ -242,28 +238,30 @@ a:hover{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
     margin-bottom: 40px;
+    background-color: white;
 }
 .single-product img{
-    height: 150px;
+    height: 175px;
     margin: auto;
 }
 .product-image{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f6fef9;
+    background-color: var(--background-sky);
 }
 .com-name{
     font-weight: bold;
     color: var(--p-color);
-    font-size: 1.3em;
+    font-size: 1.5em;
+    margin-bottom: 0px;
 }
 .product-heading{
     display: flex;
 }
 .generic-name{
-    color: gray;
-    font-size: 1.2em;
+    color: rgb(85, 84, 84);
+    font-size: 1.3em;
 }
 .product-name{
     flex-basis: 85%;
@@ -271,7 +269,7 @@ a:hover{
 .product-price{
     font-weight: bold;
     color: var(--p-color);
-    font-size: 1.5em;
+    font-size: 2em;
     flex-basis: 15%;
 }
 .add-to-cart button{
@@ -302,6 +300,9 @@ a:hover{
 
 /* user page design */
 /* **************** */
+.User-pic{
+    border-radius: 50%;
+}
 .user-item ul li{
     margin: 10px 0;
 }
@@ -325,11 +326,18 @@ a:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
 
 }
+.user-area{
+    height: 32rem;
+}
 /* tab sytle */
   /* Style the tab */
 
 
   /* Style the buttons inside the tab */
+  .tab i{
+    font-size: 1.5em;   
+    font-weight: 700;
+  }
   .tablinks{
     border: none;
     background-color: var(--background-green);
@@ -343,6 +351,8 @@ a:hover{
     background-color: var(--p-color);
     color: white;
     border: none;
+    transform: scaleX(.70em);
+    transition: .5s;
   }
 
   /* Create an active/current tablink class */
@@ -523,7 +533,7 @@ input.inc-dec-button{
 
 /* footer design */
 .footer{
-    padding: 20px 20px;
+    padding: 3.2rem 1.25rem;
     background-color: var(--background-sky);
 }
 .footer-logo{
@@ -532,3 +542,23 @@ input.inc-dec-button{
 .footer-item{
     margin-bottom: 30px;
 }
+.copy-r-text{
+    text-align: center;
+    color: #666;
+}
+
+
+/* *************
+* Front Page Background css*
+************************ */
+
+.c-1{
+    background-image: url(img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 3em 0em;
+    margin: 3em 0em;
+}
+

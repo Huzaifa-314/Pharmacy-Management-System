@@ -97,11 +97,9 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="signinup.php">Sign in</a>
+                    <a class="nav-link" href="signinup.php">Sign in/Register</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="signinup.php">Register</a>
-                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="https://github.com/Huzaifa109837/Pharmacy-Management-System">Github Link</a>
                 </li>
