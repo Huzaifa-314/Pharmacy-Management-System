@@ -1,6 +1,6 @@
 *{
-    margin: 0 ;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: "Open Sans", sans-serif ;
 }
 
@@ -240,11 +240,12 @@ h4{
     font-weight: 700 !important;
 }
 .single-product{
-    padding: 10px;
+    /* padding: 10px; */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
     margin-bottom: 40px;
     background-color: white;
+    overflow: hidden;
 }
 .single-product img{
     height: 175px;
@@ -256,38 +257,53 @@ h4{
     justify-content: center;
     background-color: var(--background-sky);
 }
+.cat-name{
+    margin-top: 8px;
+}
 .com-name{
     font-weight: bold;
-    color: var(--p-color);
-    font-size: 1.5em;
+    color: black;
+    font-size: 1.4rem;
     margin-bottom: 0px;
+    line-height: 1.8rem;
 }
 .product-heading{
     display: flex;
 }
-.generic-name{
-    color: rgb(85, 84, 84);
-    font-size: 1.3em;
+.product-card-body{
+    margin: 0 18px 12px 18px;
+}
+.generic-name{  
+    font-style: italic;
+    color: rgb(102, 101, 101);
+    font-size: 0.9rem;
 }
 .product-name{
     flex-basis: 85%;
 }
 .product-price{
-    font-weight: bold;
+    /* font-weight: bold; */
     color: var(--p-color);
-    font-size: 2em;
+    font-size: 2.3em;
     flex-basis: 15%;
+}
+.add-to-cart{
+    /* display: flex;
+    justify-content: center; */
 }
 .add-to-cart button{
     border-radius: 5px;
     background-color: white;
-    width: 100%;
-    padding: 12px 16px;
+    width: max-content;
+    padding: 5px 15px;
     cursor: pointer;
-    color: var(--p-color);
+    background-color: var(--p-color);
+    color: white;
     border: 2px solid var(--p-color);
     transition: 0.3s;
-    font-size: 1.4em;
+    font-size: 1rem;
+    
+    font-weight: 600;
 }
 .add-to-cart button:hover{
     background-color: var(--p-color);
@@ -556,7 +572,7 @@ input.inc-dec-button{
 * Front Page Background css*
 ************************ */
 
-.c-1{
+/* .c-1{
     background-image: url(img/1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -574,4 +590,4 @@ input.inc-dec-button{
     background-size: cover;
     padding: 3em 0em;
     margin: 3em 0em;
-}
+} */
