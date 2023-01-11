@@ -7,7 +7,6 @@
       <h1 class="catagory-title" style="margin-top:30px;">Shop By Category</h1>
       <hr>
     </div>
-
   </div>
   <div class="product">
     <div class="container">
