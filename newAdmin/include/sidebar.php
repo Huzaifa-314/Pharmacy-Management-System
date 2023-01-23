@@ -18,7 +18,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index-2.html">
+            <a class="nav-link" href="index.php">
               <i class="fa fa-home menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
@@ -45,8 +45,8 @@
             </a>
             <div class="collapse" id="sidebar-layouts">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="compact-menu.html">Category</a></li>
-                <li class="nav-item"> <a class="nav-link" href="sidebar-collapsed.html">Brand</a></li>
+                <li class="nav-item"> <a class="nav-link" href="category.php">Category</a></li>
+                <li class="nav-item"> <a class="nav-link" href="brand.php">Brand</a></li>
                 <li class="nav-item"> <a class="nav-link" href="sidebar-hidden.html">Add New Product</a></li>
                 <li class="nav-item"> <a class="nav-link" href="sidebar-hidden-overlay.html">View All products</a></li>
               </ul>
