@@ -29,9 +29,9 @@
 <script src="js/dashboard.js"></script>
 <!-- End custom js for this page-->
 
-<script src="../../js/file-upload.js"></script>
-   <script src="../../js/typeahead.js"></script>
-  <script src="../../js/select2.js"></script> 
+<script src="js/file-upload.js"></script>
+   <script src="js/typeahead.js"></script>
+  <script src="js/select2.js"></script> 
 
 </body>
 
